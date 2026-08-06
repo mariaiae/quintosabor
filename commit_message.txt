@@ -1,0 +1,6 @@
+feat: Integraciones de UI (Floating WhatsApp) y base de datos (Supabase)
+
+- Fix: Corrección en el manejo del estado de fecha y hora en OrderForm.
+- Feat: Creación del componente global FloatingWhatsApp.jsx con diseño tradicional/Glassmorphism (oculto en la ruta de pedidos).
+- Feat: Conexión del formulario de pedidos con Supabase para registrar automáticamente en las tablas 'orders' y 'order_items'.
+- Refactor: Inyección del botón flotante en app/layout.js respetando la estructura global.
